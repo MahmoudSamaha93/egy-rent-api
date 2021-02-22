@@ -8,7 +8,7 @@
     "npm": "6.x"
   },
   "scripts": {
-    "backend": "sudo npm install",
+    "backend": "npm install",
     "heroku-postbuild": "npm run backend && nodemon app.js"
   },
   "author": "",
