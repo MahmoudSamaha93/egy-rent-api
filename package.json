@@ -8,8 +8,7 @@
     "npm": "6.x"
   },
   "scripts": {
-    "backend": "npm install && node app.js",
-    "heroku-postbuild": "npm run backend"
+    "backend": "node ./app.js"
   },
   "author": "",
   "license": "ISC",
