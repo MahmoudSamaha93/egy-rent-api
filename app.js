@@ -15,7 +15,7 @@ mongoose.connect(connection_url, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
-  .then(() => app.listen(PORT, console.log(`Server is running on port: ${PORT}`)))
+  .then(() => app.listen(PORT, console.log(`Server is running on port: ${PORT}...\n\nMongoDB connected ...`)))
   .catch((err) => console.log(err))
 
 
