@@ -9,7 +9,7 @@
   },
   "scripts": {
     "backend": "npm install",
-    "heroku-postbuild": "npm run backend && nodemon app.js"
+    "heroku-postbuild": "npm run backend"
   },
   "author": "",
   "license": "ISC",
