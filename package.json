@@ -12,7 +12,7 @@
     "npm": "6.x"
   },
   "scripts": {
-    "heroku-prebuild": "node ./app.js"
+    "heroku-afterbuild": "node ./app.js"
   },
   "author": "",
   "license": "ISC",
